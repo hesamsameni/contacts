@@ -1,8 +1,10 @@
+const mysql = require('mysql')
+
 var mysqlConnection = mysql.createConnection({
-  host: '',
-  user: '',
-  password: '',
-  database: '',
+  host: 'localhost',
+  user: 'root',
+  password: 'J<"k6nw:4Jbpa<rH',
+  database: 'Contacts',
   multipleStatements: true,
 })
 
